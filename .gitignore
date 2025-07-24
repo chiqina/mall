@@ -1,0 +1,15 @@
+# 忽略所有 .log 文件
+*.log
+
+# 忽略 build 文件夹
+build/
+
+# 忽略 node_modules 文件夹
+node_modules/
+
+# 不忽略 .gitignore 文件
+!.gitignore
+
+# 忽略所有 .txt 文件，除了 important.txt
+*.txt
+!important.txt

@@ -1,0 +1,24 @@
+*{
+    /* 设置盒子模型 */
+    box-sizing: border-box; 
+}
+
+body{
+    color: #333;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.aside{
+    width: 200px !important;
+    height: 100vh;
+    background-color: #304156;
+    
+}
+
+.menu{
+    border: none;
+    background-color: #304156;
+}
+
