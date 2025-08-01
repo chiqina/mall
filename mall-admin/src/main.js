@@ -5,6 +5,9 @@ import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import '@/assets/css/global.css'
+// 加载icon图标
+import '../public/icon/css/iconfont.js'
+import '../public/icon/css/iconfont.css'
 
 Vue.config.productionTip = false
 

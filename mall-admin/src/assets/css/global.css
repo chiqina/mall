@@ -10,6 +10,8 @@ body{
     margin: 0;
 }
 
+/* 侧边栏样式文件 */
+
 .aside{
     width: 200px !important;
     height: 100vh;
@@ -19,6 +21,34 @@ body{
 
 .menu{
     border: none;
-    background-color: #304156;
 }
 
+/* 设置图标和文字颜色一致 */
+.el-submenu__title i{
+    color: inherit !important;
+}		
+
+/* 因为一级菜单文字和图标有点上下不对齐，这个设置是为了让文字对齐 */
+.el-submenu__title >span{
+    line-height: 57px;
+}
+
+/* 设置二级菜单背景颜色 */
+.el-menu--inline > .el-menu-item{
+    background-color: #1f2d3d !important;
+}
+
+/* 因为是外部引入的图标，所以需要设置一下图标大小 */
+.el-menu--inline > .el-menu-item > i{
+    width: 24px;
+    height: 18px;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 5px;
+    color: inherit !important;
+}
+
+/* 鼠标选中指定区域变的更黑 */
+.el-menu--inline > .el-menu-item:hover{
+    background-color: #001528 !important;
+}

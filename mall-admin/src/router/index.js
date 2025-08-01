@@ -8,7 +8,6 @@ const routes = [
     path: '/',
     name: 'manager',
     component:()=>import("../views/Manager.vue")
-    // component: ()=>import("../views/HomeView.vue")
   }
 ]
 
